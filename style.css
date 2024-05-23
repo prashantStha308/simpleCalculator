@@ -41,6 +41,19 @@ body{
 
 }
 
+.space-btn{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border: none;
+    background-color: transparent;
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
 .key-button{
     width: 100px;
     height: 100px;
