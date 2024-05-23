@@ -64,6 +64,7 @@ body{
     text-align: center;
     cursor: pointer;
     user-select: none;
+    transition: all 0.15s;
 }
 
 .key-button:hover{
@@ -77,6 +78,7 @@ body{
 .opt-key{
     background-color: rgb(235, 203, 23);
     color: white;
+    transition: all 0.15s;
 }
 
 .opt-key:active{
@@ -91,6 +93,7 @@ body{
 .clear-btn{
     background-color: rgb(221, 44, 44);
     color: white;
+    transition: all 0.15s;
 }
 
 .clear-btn:hover{
