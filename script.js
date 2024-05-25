@@ -1,22 +1,27 @@
-const display = document.getElementById("display");
+console.log($);
+
+const display = $("#display");
 var errorCheck = false;
+console.log(display);
 
 function getKey(input){
 
-
-    display.value += input;
+    let currentValue = display.val();
+    display.val(currentValue + input);
+    // display.value += input;
 }
 
 function clearDisplay(){
 
-    display.value = "";
+    display.val("");
 }
 
 function calculate(){
     try{
-        display.value = eval(display.value);
+        let result = eval(display.val());
+        display.val(result);
     }
     catch(error){
-        display.value = "Error";
+        display.val("Error");
     }
 }
